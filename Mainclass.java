@@ -9,7 +9,7 @@ class Main {
 
       // compute the next term
       int nextTerm = firstTerm + secondTerm;
-      firstTerm = secondTerm;
+      firstTerm = secondTerm; 
       secondTerm = nextTerm;
     }
   }
